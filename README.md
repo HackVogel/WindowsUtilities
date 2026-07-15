@@ -15,14 +15,22 @@ Whether you want to automate tedious tasks, optimize your system, or add quality
 
 ## 💻 Compatibility
 
+* **Git:** Clone this repository by using git for a better experience!
 * **Windows 11:** Fully tested and natively optimized.
 * **Windows 10:** While tailored for Windows 11, these scripts are written to be backwards compatible and *should* work perfectly fine on Windows 10 as well. 
 
 ## ❗ Requirements
 * **UpdateAllPrograms:** Winget (on Windows 11 preinstalled)
-
+* **UtilityUpdater:** Git (you can install this by using winget with command)
 
 **Clone or Download** this repository to your local machine:
+   
+   install Git
+   ```cmd
+   winget install git.git
+   ```
+
+   Clone repository
    ```cmd
    git clone https://github.com/HackVogel/WindowsUtilities.git
    ```
