@@ -21,9 +21,6 @@ Whether you want to automate tedious tasks, optimize your system, or add quality
 ## ❗ Requirements
 * **UpdateAllPrograms:** Winget (on Windows 11 preinstalled)
 
-## Known Issues:
-* UtilityUpdate Checker is broken (will be fixed soon.)
-
 
 **Clone or Download** this repository to your local machine:
    ```cmd
