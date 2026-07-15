@@ -25,5 +25,5 @@ Whether you want to automate tedious tasks, optimize your system, or add quality
 
 **Clone or Download** this repository to your local machine:
    ```cmd
-   git clone [https://github.com/YourUsername/WindowsUtilities.git](https://github.com/HackVogel/WindowsUtilities.git)
+   git clone https://github.com/HackVogel/WindowsUtilities.git
    ```
