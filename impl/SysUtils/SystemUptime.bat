@@ -10,7 +10,7 @@ echo.
 echo [INFO] Get System uptime...
 echo.
 
-powershell -NoProfile -Command "$Uptime = (Get-Date) - (Get-CimInstance Win32_OperatingSystem).LastBootUpTime; Write-Host 'Dein PC laeuft seit: ' -NoNewline -ForegroundColor Cyan; Write-Host ($Uptime.Days.ToString() + ' Tagen, ' + $Uptime.Hours.ToString() + ' Stunden und ' + $Uptime.Minutes.ToString() + ' Minuten.') -ForegroundColor White"
+powershell -NoProfile -Command "$Uptime = (Get-Date) - (Get-CimInstance Win32_OperatingSystem).LastBootUpTime; Write-Host 'System uptime: ' -NoNewline -ForegroundColor Cyan; Write-Host ($Uptime.Days.ToString() + ' Days, ' + $Uptime.Hours.ToString() + ' Hour and ' + $Uptime.Minutes.ToString() + ' Minutes.') -ForegroundColor White"
 
 echo.
 pause
