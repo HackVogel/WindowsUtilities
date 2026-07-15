@@ -44,7 +44,8 @@ if %errorlevel% equ 0 (
     echo [SUCCESS] WindowsUtilities has been updated. Open CHANGELOG.MD to see whats new! 
 ) else (
     echo [INFO] No update available
+    timeout /t 2 /NOBREAK>NUL
+    exit
 )
 
 echo.
-pause
